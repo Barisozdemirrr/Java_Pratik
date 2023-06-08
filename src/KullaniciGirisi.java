@@ -34,7 +34,6 @@ public class KullaniciGirisi {
                 System.out.println("Şifre olusturuldu.Şifreniz : " + sifre);
             } else {
                 System.out.println("Çıkış yapılıyor.");
-                System.exit(0);
             }
         } else {
             System.out.println("Hatalı kullanıcı adı veya parola.");
