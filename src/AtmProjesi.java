@@ -41,7 +41,7 @@ public class AtmProjesi {
                     }
                     case 3 -> System.out.println("Bakiyeniz : " + balance);
                     case 4 ->{
-                        System.out.println("Bizi tercih ettiginiz için teşekkürler. Görüşmek üzere :) ");
+                        System.out.println("Bizi tercih ettiginiz için teşekkürler. Görüşmek üzere :) :) ");
                     System.exit(0);}
                     default -> {
                     }
