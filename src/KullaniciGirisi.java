@@ -33,7 +33,7 @@ public class KullaniciGirisi {
                 sifre = yeniSifre;
                 System.out.println("Şifre olusturuldu.Şifreniz : " + sifre);
             } else {
-                System.out.println("Çıkış yapılıyor.");
+                System.out.println("Hatalı tuşlama yaptınız.Çıkış yapılıyor.");
             }
         } else {
             System.out.println("Hatalı kullanıcı adı veya parola.");
