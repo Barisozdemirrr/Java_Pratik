@@ -19,7 +19,8 @@ public class KullaniciGirisi {
             System.out.println("Hatali şifre girdiniz sıfırlamak için 1 i tuşlayınız");
             select = input.nextInt();
             if (select == 1) {
-                System.out.println("Lütfen yeni şifrenizi giriniz");
+                System.out.println("Lütfen yeni şifrenizi giriniz.\n" +
+                        "Yeni şifreniz eski şifre ve hatali şifre ile aynı olamaz");
                 input.nextLine();
                 yeniSifre = input.nextLine();
                 while (yeniSifre.equals(hataliGiris) || yeniSifre.equals(sifre)) {
