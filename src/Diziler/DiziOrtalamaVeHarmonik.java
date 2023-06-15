@@ -1,3 +1,5 @@
+package Diziler;
+
 public class DiziOrtalamaVeHarmonik {
     public static void main(String[] args) {
         int[] list = {1, 2, 3, 4, 5, 6, 7};//dizi oluşturuldu.
